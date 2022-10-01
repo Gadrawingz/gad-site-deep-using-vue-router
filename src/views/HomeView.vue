@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <h1>Welcome to my site!</h1>>
-    <p>This site is made of many components to check out! lets go!</p>
+  <div class="page-content">
+    <h1>Welcome to my site!</h1>
+   <span class="welcome">Hi, Its me &raquo; Gad IRADUFASHA</span>
   </div>
 </template>
 
@@ -12,3 +12,14 @@ export default {
   components: {},
 }
 </script>
+
+
+<style scoped>
+  .welcome {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px;
+    color: grey;
+  }
+</style>
